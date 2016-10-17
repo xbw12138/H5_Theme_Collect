@@ -1,0 +1,1026 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- BEGIN META --> 
+	  <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="Custom Theme">
+	  <!-- END META -->
+     
+      <!-- BEGIN SHORTCUT ICON -->
+	  <link rel="shortcut icon" href="img/favicon.ico">
+	  <!-- END SHORTCUT ICON -->
+      <title>Inbox</title>
+	  <!-- BEGIN STYLESHEET-->
+		<link href="css/bootstrap.min.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
+		<link href="css/bootstrap-reset.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
+		<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"><!-- FONT AWESOME ICON CSS -->
+		<link href="assets/jquery-file-upload/css/jquery.fileupload-ui.css" rel="stylesheet" type="text/css"><!-- FILE UPLOAD UI CSS -->
+		<link href="css/style.css" rel="stylesheet"><!-- THEME BASIC CSS -->
+		<link href="css/style-responsive.css" rel="stylesheet"><!-- THEME RESPONSIVE CSS -->
+      <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+	  <!-- END STYLESHEET-->
+   </head>
+   <body>
+      <!-- BEGIN SECTION -->
+      <section id="container" class="">
+	    <!-- BEGIN HEADER -->
+         <header class="header white-bg">
+            <!-- SIDEBAR TOGGLE BUTTON -->
+        <div class="sidebar-toggle-box">
+          <div  data-placement="right" class="fa fa-bars tooltips">
+          </div>
+        </div>
+        <!-- SIDEBAR TOGGLE BUTTON  END-->
+            <a href="index.html" class="logo">olive<span>admin</span></a>
+            <!-- START HEADER  NAV -->
+        
+        <nav class="nav notify-row" id="top_menu">
+          
+          <ul class="nav top-menu">
+            <!-- START NOTIFY TASK BAR -->
+            
+            <li class="dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <i class="fa fa-tasks">
+                </i>
+                <span class="badge bg-success">
+                  6
+                </span>
+              </a>
+              
+              <ul class="dropdown-menu extended tasks-bar">
+                <li class="notify-arrow notify-arrow-blue">
+                </li>
+                <li>
+                  <p class="blue">
+                    You have 6 pending tasks
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="task-info">
+                      <div class="desc">
+                        Dashboard v1.3
+                      </div>
+                      <div class="percent">
+                        40%
+                      </div>
+                    </div>
+                    <div class="progress progress-striped">
+                      <div class="progress-bar progress-bar-success set-40" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" >
+                        <span class="sr-only">
+                          40% Complete (success)
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="task-info">
+                      <div class="desc">
+                        Database Update
+                      </div>
+                      <div class="percent">
+                        60%
+                      </div>
+                    </div>
+                    <div class="progress progress-striped">
+                      <div class="progress-bar progress-bar-warning set-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" >
+                        <span class="sr-only">
+                          60% Complete (warning)
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="task-info">
+                      <div class="desc">
+                        Iphone Development
+                      </div>
+                      <div class="percent">
+                        87%
+                      </div>
+                    </div>
+                    <div class="progress progress-striped">
+                      <div class="progress-bar progress-bar-info set-87" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" >
+                        <span class="sr-only">
+                          87% Complete
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="task-info">
+                      <div class="desc">
+                        Mobile App
+                      </div>
+                      <div class="percent">
+                        33%
+                      </div>
+                    </div>
+                    <div class="progress progress-striped">
+                      <div class="progress-bar progress-bar-danger set-33" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" >
+                        <span class="sr-only">
+                          33% Complete (danger)
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="task-info">
+                      <div class="desc">
+                        Dashboard v1.3
+                      </div>
+                      <div class="percent">
+                        45%
+                      </div>
+                    </div>
+                    <div class="progress progress-striped active">
+                      <div class="progress-bar set-45" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" >
+                        <span class="sr-only">
+                          45% Complete
+                        </span>
+                      </div>
+                      
+                    </div>
+                  </a>
+                </li>
+                <li class="external">
+                  <a href="#">
+                    See All Tasks
+                  </a>
+                </li>
+              </ul>
+              
+            </li>
+            <!-- END NOTIFY TASK BAR -->
+            
+            <!-- START NOTIFY INBOX BAR -->
+            
+            <li id="header_inbox_bar" class="dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <i class="fa fa-envelope-o">
+                </i>
+                <span class="badge bg-important">
+                  5
+                </span>
+              </a>
+              <ul class="dropdown-menu extended inbox">
+                <li class="notify-arrow notify-arrow-blue">
+                </li>
+                <li>
+                  <p class="blue">
+                    You have 5 new messages
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="photo">
+                      <img alt="avatar" src="./img/avatar-mini.jpg">
+                    </span>
+                    <span class="subject">
+                      <span class="from">
+                        Chintan Pandya
+                      </span>
+                      <span class="time">
+                        Just now
+                      </span>
+                    </span>
+                    <span class="message">
+                      Hello, this is an example msg.
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="photo">
+                      <img alt="avatar" src="./img/avatar-mini2.jpg">
+                    </span>
+                    <span class="subject">
+                      <span class="from">
+                        Parth Jani
+                      </span>
+                      <span class="time">
+                        10 mins
+                      </span>
+                    </span>
+                    <span class="message">
+                      Hi, Bro how are you ?
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="photo">
+                      <img alt="avatar" src="./img/avatar-mini3.jpg">
+                    </span>
+                    <span class="subject">
+                      <span class="from">
+                        Jay Bardolia
+                      </span>
+                      <span class="time">
+                        3 hrs
+                      </span>
+                    </span>
+                    <span class="message">
+                      This is awesome dashboard.
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="photo">
+                      <img alt="avatar" src="./img/avatar-mini4.jpg">
+                    </span>
+                    <span class="subject">
+                      <span class="from">
+                        Pruthvi Bardolia
+                      </span>
+                      <span class="time">
+                        Just now
+                      </span>
+                    </span>
+                    <span class="message">
+                      Hello, this is metrolab
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    See all messages
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- END NOTIFY INBOX BAR -->
+            
+            <!-- START NOTIFY NOTIFICATION BAR -->
+            
+            <li id="header_notification_bar" class="dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <i class="fa fa-bell-o">
+                </i>
+                <span class="badge bg-warning">
+                  7
+                </span>
+              </a>
+              <ul class="dropdown-menu extended notification">
+                <li class="notify-arrow notify-arrow-blue">
+                </li>
+                <li>
+                  <p class="blue">
+                    You have 7 new notifications
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="label label-danger">
+                      <i class="fa fa-bolt">
+                      </i>
+                    </span>
+                    Server #3 overloaded.
+                    <span class="small italic">
+                      34 mins
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="label label-warning">
+                      <i class="fa fa-bell">
+                      </i>
+                    </span>
+                    Server #10 not respoding.
+                    <span class="small italic">
+                      1 Hours
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="label label-danger">
+                      <i class="fa fa-bolt">
+                      </i>
+                    </span>
+                    Database overloaded 24%.
+                    <span class="small italic">
+                      4 hrs
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="label label-success">
+                      <i class="fa fa-plus">
+                      </i>
+                    </span>
+                    New user registered.
+                    <span class="small italic">
+                      Just now
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="label label-primary">
+                      <i class="fa fa-bullhorn">
+                      </i>
+                    </span>
+                    Application error.
+                    <span class="small italic">
+                      10 mins
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    See all notifications
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- END NOTIFY NOTIFICATION BAR -->
+            
+          </ul>
+          
+          
+        </nav>
+        
+        <!-- END HEADER NAV -->
+        
+		 <!-- START USER LOGIN DROPDOWN  -->
+            <div class="top-nav ">
+               <ul class="nav pull-right top-menu">
+                  <li>
+                     <input type="text" class="form-control search" placeholder="Search">
+                  </li>
+                  <li class="dropdown">
+                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                     <img alt="" src="img/avatar1_small.jpg">
+                     <span class="username">Pruthvi</span>
+                     <b class="caret"></b>
+                     </a>
+                     <ul class="dropdown-menu extended logout">
+                        <li class="log-arrow-up"></li>
+                        <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
+                        <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+                        <li><a href="#"><i class="fa fa-bell-o"></i> Notification</a></li>
+                        <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+			<!-- END USER LOGIN DROPDOWN  -->
+         </header>
+		 <!-- END HEADER -->
+		 <!-- BEGIN SIDEBAR -->
+         <aside>
+            <div id="sidebar" class="nav-collapse">
+               <ul class="sidebar-menu" id="nav-accordion">
+                  <li>
+                     <a href="index.html">
+                     <i class="fa fa-dashboard"></i>
+                     <span>Dashboard</span>
+                     </a>
+                  </li>
+                  <li class="sub-menu">
+                     <a href="javascript:;">
+                     <i class="fa fa-laptop"></i>
+                     <span>Layouts</span>
+                     <span class="label label-success span-sidebar">4</span>
+                     </a>
+                     <ul class="sub">
+                        <li><a href="boxed_page.html">Boxed Page</a></li>
+                        <li><a href="horizontal_menu.html">Horizontal Menubar</a></li>
+                        <li><a href="language_switch_bar.html">Language Bar</a></li>
+                        <li><a href="email_template.html" target="_blank">Email Templates</a></li>
+                     </ul>
+                  </li>
+                  <li class="sub-menu">
+                     <a href="javascript:;">
+                     <i class="fa fa-book"></i>
+                     <span>UI Elements</span>
+                     <span class="label label-info span-sidebar">7</span>
+                     </a>
+                     <ul class="sub">
+                        <li><a href="general.html">General</a></li>
+                        <li><a href="buttons.html">Buttons</a></li>
+                        <li><a href="widget.html">Widget</a></li>
+                        <li><a href="slider.html">Range Slider</a></li>
+                        <li><a href="nestable.html">Nestable List</a></li>
+                        <li><a href="tree.html">Tree View List</a></li>
+                        <li><a href="font_awesome.html">Font Awesome Icon</a></li>
+                     </ul>
+                  </li>
+                  <li class="sub-menu">
+                     <a href="javascript:;">
+                     <i class="fa fa-cogs"></i>
+                     <span>Components</span>
+                     <span class="label label-primary span-sidebar">5</span>
+                     </a>
+                     <ul class="sub">
+                        <li><a href="grids.html">Grids</a></li>
+                        <li><a href="calendar.html">Calendar</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="todo_list.html">Todo List</a></li>
+                        <li><a href="draggable_portlet.html">Draggable Portlets</a></li>
+                     </ul>
+                  </li>
+                  <li class="sub-menu">
+                     <a href="javascript:;">
+                     <i class="fa fa-tasks"></i>
+                     <span>Form Stuff</span>
+                     <span class="label label-info span-sidebar">7</span>
+                     </a>
+                     <ul class="sub">
+                        <li><a href="form_component.html">Form Components</a></li>
+                        <li><a href="advanced_form_components.html">Advanced Components</a></li>
+                        <li><a href="form_wizard.html">Form Wizards</a></li>
+                        <li><a href="form_validation.html">Form Validation</a></li>
+                        <li><a href="dropzone.html">Dropzone File Upload</a></li>
+                        <li><a href="inline_editor.html">Inline Editor</a></li>
+                        <li><a href="file_upload.html">Multiple File Upload</a></li>
+                     </ul>
+                  </li>
+                  <li class="sub-menu">
+                     <a href="javascript:;">
+                     <i class="fa fa-th"></i>
+                     <span>Data Tables</span>
+                     <span class="label label-inverse span-sidebar">5</span>
+                     </a>
+                     <ul class="sub">
+                        <li><a href="basic_table.html">Basic Table</a></li>
+                        <li><a href="responsive_table.html">Responsive Table</a></li>
+                        <li><a href="dynamic_table.html">Dynamic Table</a></li>
+                        <li><a href="advanced_table.html">Advanced Table</a></li>
+                        <li><a href="editable_table.html">Editable Table</a></li>
+                     </ul>
+                  </li>
+                  <li class="sub-menu">
+                     <a href="javascript:;" class="active">
+                     <i class=" fa fa-envelope"></i>
+                     <span>Mail</span>
+                     <span class="label label-danger span-sidebar">2</span>
+                     </a>
+                     <ul class="sub">
+                        <li class="active"><a href="inbox.html">Inbox</a></li>
+                        <li><a href="inbox_details.html">Mail Details</a></li>
+                     </ul>
+                  </li>
+                  <li class="sub-menu">
+                     <a href="javascript:;">
+                     <i class=" fa fa-bar-chart-o"></i>
+                     <span>Charts</span>
+                     <span class="label label-warning span-sidebar">4</span>
+                     </a>
+                     <ul class="sub">
+                        <li><a href="morris.html">Morris Chart</a></li>
+                        <li><a href="chartjs.html">Chartjs Chart</a></li>
+                        <li><a href="flot_chart.html">Flot Charts</a></li>
+                        <li><a href="xchart.html">xChart</a></li>
+                     </ul>
+                  </li>
+                  <li class="sub-menu">
+                     <a href="javascript:;">
+                     <i class="fa fa-shopping-cart"></i>
+                     <span>Product</span>
+                     <span class="label label-success span-sidebar">2</span>
+                     </a>
+                     <ul class="sub">
+                        <li><a href="product_list.html">List View</a></li>
+                        <li><a href="product_details.html">Details View</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="google_maps.html">
+                     <i class="fa fa-map-marker"></i>
+                     <span>Google Maps </span>
+                     </a>
+                  </li>
+                  <li class="sub-menu">
+                     <a href="javascript:;" >
+                     <i class="fa fa-glass"></i>
+                     <span>Extra Pages</span>
+                     <span class="label label-primary span-sidebar">10</span>
+                     </a>
+                     <ul class="sub">
+                        <li><a href="blank.html">Blank Page</a></li>
+                        <li><a href="lock_screen.html">Lock Screen</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="invoice.html">Invoice</a></li>
+                        <li><a href="search_result.html">Search Result</a></li>
+                        <li><a href="pricing_table.html">Pricing Table</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li ><a href="fb_wall.html">Timeline</a></li>
+                        <li><a href="404.html">404 Error</a></li>
+                        <li><a href="500.html">500 Error</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="login.html">
+                     <i class="fa fa-user"></i>
+                     <span>Login Page</span>
+                     </a>
+                  </li>
+                  <li class="sub-menu">
+                     <a href="javascript:;">
+                     <i class="fa fa-sitemap"></i>
+                     <span>Multi level Menu</span>
+                     </a>
+                     <ul class="sub">
+                        <li><a href="javascript:;">Menu Item 1</a></li>
+                        <li class="sub-menu">
+                           <a href="boxed_page.html">Menu Item 2 <span class="label label-primary">1</span></a>
+                           <ul class="sub">
+                              <li><a href="javascript:;"> Item 2.1</a></li>
+                              <li class="sub-menu">
+                                 <a href="javascript:;">Menu Item 3 <span class="label label-primary">3</span></a>
+                                 <ul class="sub">
+                                    <li><a href="javascript:;">Item 3.1</a></li>
+                                    <li><a href="javascript:;">Item 3.2</a></li>
+                                    <li><a href="javascript:;">Item 3.2</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </aside>
+		 <!-- END SIDEBAR -->
+		 <!-- BEGIN MAIN CONTENT -->
+         <section id="main-content">
+		 <!-- BEGIN WRAPPER  -->
+            <section class="wrapper">
+               <div class="mail-box">
+                  <aside class="sm-side">
+				     <!-- INBOX HEADER -->
+                     <div class="user-head">
+                        <a href="javascript:;" class="inbox-avatar">
+                        <img src="img/mail-avatar.jpg" alt="">
+                        </a>
+                        <div class="user-name">
+                           <h5><a href="#">Pruthvi Bardolia</a></h5>
+                           <span><a href="#">pruthvi@tripzmate.com</a></span>
+                        </div>
+                        <a href="javascript:;" class="mail-dropdown pull-right">
+                        <i class="fa fa-chevron-down"></i>
+                        </a>
+                     </div>
+					 <!-- INBOX HEADER -->
+					 <!-- INBOX BODY -->
+                     <div class="inbox-body">
+                        <a class="btn btn-compose" data-toggle="modal" href="#myModal">
+                        Compose
+                        </a>
+                        <div class="modal fade" id="myModal" >
+                           <div class="modal-dialog">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">Compose</h4>
+                                 </div>
+                                 <div class="modal-body">
+                                    <form class="form-horizontal" role="form">
+                                       <div class="form-group">
+                                          <label class="col-lg-2 control-label">To</label>
+                                          <div class="col-lg-10">
+                                             <input type="text" class="form-control" id="inputEmail1" placeholder="">
+                                          </div>
+                                       </div>
+                                       <div class="form-group">
+                                          <label class="col-lg-2 control-label">Cc / Bcc</label>
+                                          <div class="col-lg-10">
+                                             <input type="text" class="form-control" id="cc" placeholder="">
+                                          </div>
+                                       </div>
+                                       <div class="form-group">
+                                          <label class="col-lg-2 control-label">Subject</label>
+                                          <div class="col-lg-10">
+                                             <input type="text" class="form-control" id="inputPassword1" placeholder="">
+                                          </div>
+                                       </div>
+                                       <div class="form-group">
+                                          <label class="col-lg-2 control-label">Message</label>
+                                          <div class="col-lg-10">
+                                             <textarea name="" id="test" class="form-control" cols="30" rows="10"></textarea>
+                                          </div>
+                                       </div>
+                                       <div class="form-group">
+                                          <div class="col-lg-offset-2 col-lg-10">
+                                             <span class="btn green fileinput-button">
+                                             <i class="fa fa-plus fa fa-white"></i>
+                                             <span>Attachment</span>
+                                             <input type="file" multiple="" name="files[]">
+                                             </span>
+                                             <button type="submit" class="btn btn-send">Send</button>
+                                          </div>
+                                       </div>
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+					 <!-- INBOX HEADER -->
+					 <!-- INBOX NAV -->
+                     <ul class="inbox-nav inbox-divider">
+                        <li class="active">
+                           <a href="#"><i class="fa fa-inbox"></i> Inbox <span class="label label-danger pull-right">2</span></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa fa-envelope-o"></i> Sent Mail</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa fa-bookmark-o"></i> Important</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class=" fa fa-external-link"></i> Drafts <span class="label label-info pull-right">30</span></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class=" fa fa-trash-o"></i> Trash</a>
+                        </li>
+                     </ul>
+                     <ul class="nav nav-pills nav-stacked labels-info inbox-divider">
+                        <li>
+                           <h4>Labels</h4>
+                        </li>
+                        <li> <a href="#"> <i class=" fa fa-sign-blank text-danger"></i> Work </a> </li>
+                        <li> <a href="#"> <i class=" fa fa-sign-blank text-success"></i> Design </a> </li>
+                        <li> <a href="#"> <i class=" fa fa-sign-blank text-info "></i> Family </a>
+                        <li> <a href="#"> <i class=" fa fa-sign-blank text-warning "></i> Friends </a>
+                        <li> <a href="#"> <i class=" fa fa-sign-blank text-primary "></i> Office </a></li>
+                     </ul>
+                     <ul class="nav nav-pills nav-stacked labels-info ">
+                        <li>
+                           <h4>Buddy online</h4>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <i class=" fa fa-comments text-success"></i> Chintan Pandya 
+                              <p>I do not think</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <i class=" fa fa-comments text-danger"></i> Parth Jani 
+                              <p>Busy with coding</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <i class=" fa fa-comments text-warning "></i> Anjelina Joli 
+                              <p>I out of control</p>
+                           </a>
+                        <li>
+                           <a href="#">
+                              <i class=" fa fa-comments text-muted "></i> Bill gates 
+                              <p>I am not here</p>
+                           </a>
+                        <li>
+                           <a href="#">
+                              <i class=" fa fa-comments text-success "></i> Jay Bardolia 
+                              <p>I do not think</p>
+                           </a>
+                        </li>
+                     </ul>
+                     <div class="inbox-body text-center">
+                        <div class="btn-group">
+                           <a href="javascript:;" class="btn mini btn-danger">
+                           <i class="fa fa-power-off"></i>
+                           </a>
+                        </div>
+                        <div class="btn-group">
+                           <a href="javascript:;" class="btn mini btn-primary">
+                           <i class="fa fa-cogs"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </aside>
+				  <!-- INBOX MAIL CONTAINER -->
+                  <aside class="lg-side">
+                     <div class="inbox-head">
+                        <h3>Inbox</h3>
+                        <form class="pull-right position" action="#">
+                           <div class="input-append">
+                              <input type="text" placeholder="Search Mail" class="sr-input">
+                              <button type="button" class="btn sr-btn"><i class="fa fa-search"></i></button>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="inbox-body">
+                        <div class="mail-option">
+                           <div class="chk-all">
+                              <input type="checkbox" class="mail-checkbox mail-group-checkbox">
+                              <div class="btn-group">
+                                 <a class="btn mini all" href="#" data-toggle="dropdown">
+                                 All
+                                 <i class="fa fa-angle-down "></i>
+                                 </a>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="#"> None</a></li>
+                                    <li><a href="#"> Read</a></li>
+                                    <li><a href="#"> Unread</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="btn-group">
+                              <a class="btn mini tooltips" href="#" data-toggle="dropdown" data-placement="top" data-original-title="Refresh">
+                              <i class=" fa fa-refresh"></i>
+                              </a>
+                           </div>
+                           <div class="btn-group hidden-phone">
+                              <a class="btn mini blue" href="#" data-toggle="dropdown">
+                              More
+                              <i class="fa fa-angle-down "></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li><a href="#"><i class="fa fa-pencil"></i> Mark as Read</a></li>
+                                 <li><a href="#"><i class="fa fa-ban"></i> Spam</a></li>
+                                 <li class="divider"></li>
+                                 <li><a href="#"><i class="fa fa-trash-o"></i> Delete</a></li>
+                              </ul>
+                           </div>
+                           <div class="btn-group">
+                              <a class="btn mini blue" href="#" data-toggle="dropdown">
+                              Move to
+                              <i class="fa fa-angle-down "></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li><a href="#"><i class="fa fa-pencil"></i> Mark as Read</a></li>
+                                 <li><a href="#"><i class="fa fa-ban"></i> Spam</a></li>
+                                 <li class="divider"></li>
+                                 <li><a href="#"><i class="fa fa-trash-o"></i> Delete</a></li>
+                              </ul>
+                           </div>
+                           <ul class="unstyled inbox-pagination">
+                              <li><span>1-50 of 234</span></li>
+                              <li>
+                                 <a href="#" class="np-btn"><i class="fa fa-angle-left  pagination-left"></i></a>
+                              </li>
+                              <li>
+                                 <a href="#" class="np-btn"><i class="fa fa-angle-right pagination-right"></i></a>
+                              </li>
+                           </ul>
+                        </div>
+                        <table class="table table-inbox table-hover">
+                           <tbody>
+                              <tr class="unread">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message  dont-show">Olive Design Hub</td>
+                                 <td class="view-message ">Lorem ipsum dolor imit set.</td>
+                                 <td class="view-message  inbox-small-cells"><i class="fa fa-paperclip"></i></td>
+                                 <td class="view-message  text-right">9:27 AM</td>
+                              </tr>
+                              <tr class="unread">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Chintan Pandya</td>
+                                 <td class="view-message">Hi Bro, How are you?</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">March 15</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Bill Gates</td>
+                                 <td class="view-message">Plese Join My Company</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">June 15</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Mark Zukerberg</td>
+                                 <td class="view-message">I Have an Error Please Solved This.</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">April 01</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star inbox-started"></i></td>
+                                 <td class="view-message dont-show">Mark Zukerberg<span class="label label-danger pull-right">urgent</span></td>
+                                 <td class="view-message">We Bought Twitter What U Say..? Reply</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">May 23</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star inbox-started"></i></td>
+                                 <td class="view-message dont-show">Facebook</td>
+                                 <td class="view-message">Anil Ambani,Add You As Friend. Confirm?</td>
+                                 <td class="view-message inbox-small-cells"><i class="fa fa-paperclip"></i></td>
+                                 <td class="view-message text-right">March 14</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star inbox-started"></i></td>
+                                 <td class="view-message dont-show">Obama</td>
+                                 <td class="view-message">Comment On Your Photo.</td>
+                                 <td class="view-message inbox-small-cells"><i class="fa fa-paperclip"></i></td>
+                                 <td class="view-message text-right">January 19</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Facebook <span class="label label-success pull-right">megazine</span></td>
+                                 <td class="view-message view-message">Dolor sit amet, consectetuer adipiscing</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">March 04</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Chintan</td>
+                                 <td class="view-message view-message">Lorem ipsum dolor sit amet</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">June 13</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Facebook <span class="label label-info pull-right">family</span></td>
+                                 <td class="view-message view-message">Dolor sit amet, consectetuer adipiscing</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">March 24</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star inbox-started"></i></td>
+                                 <td class="view-message dont-show">Chintan <span class="label label-primary pull-right">Social</span></td>
+                                 <td class="view-message">Lorem ipsum dolor sit amet</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">March 09</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star inbox-started"></i></td>
+                                 <td class="dont-show">Facebook</td>
+                                 <td class="view-message">Dolor sit amet, consectetuer adipiscing</td>
+                                 <td class="view-message inbox-small-cells"><i class="fa fa-paperclip"></i></td>
+                                 <td class="view-message text-right">May 14</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Parth</td>
+                                 <td class="view-message">Lorem ipsum dolor sit amet</td>
+                                 <td class="view-message inbox-small-cells"><i class="fa fa-paperclip"></i></td>
+                                 <td class="view-message text-right">February 25</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="dont-show">Facebook</td>
+                                 <td class="view-message view-message">Dolor sit amet, consectetuer adipiscing</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">March 14</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Dulal <span class="label label-primary pull-right">Company</span></td>
+                                 <td class="view-message">Lorem ipsum dolor sit amet</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">April 07</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Twitter</td>
+                                 <td class="view-message">Dolor sit amet, consectetuer adipiscing</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">July 14</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star inbox-started"></i></td>
+                                 <td class="view-message dont-show">Parth</td>
+                                 <td class="view-message">Lorem ipsum dolor sit amet</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">August 10</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Facebook</td>
+                                 <td class="view-message view-message">Dolor sit amet, consectetuer adipiscing</td>
+                                 <td class="view-message inbox-small-cells"><i class="fa fa-paperclip"></i></td>
+                                 <td class="view-message text-right">April 14</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Chintan</td>
+                                 <td class="view-message">Lorem ipsum dolor sit amet</td>
+                                 <td class="view-message inbox-small-cells"><i class="fa fa-paperclip"></i></td>
+                                 <td class="view-message text-right">June 16</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star inbox-started"></i></td>
+                                 <td class="view-message dont-show">Parth</td>
+                                 <td class="view-message">Lorem ipsum dolor sit amet</td>
+                                 <td class="view-message inbox-small-cells"></td>
+                                 <td class="view-message text-right">August 10</td>
+                              </tr>
+                              <tr class="">
+                                 <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                 </td>
+                                 <td class="inbox-small-cells hidden-phone"><i class="fa fa-star"></i></td>
+                                 <td class="view-message dont-show">Facebook <span class="label label-primary pull-right">megazine</span></td>
+                                 <td class="view-message view-message">Dolor sit amet, consectetuer adipiscing</td>
+                                 <td class="view-message inbox-small-cells"><i class="fa fa-paperclip"></i></td>
+                                 <td class="view-message text-right">April 14</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </aside>
+				  <!-- INBOX MAIL CONTAINER -->
+               </div>
+            </section>
+			<!-- END WRAPPER  -->
+         </section>
+         <footer class="site-footer">
+            <div class="text-center">
+               2013 &copy; Olive Admin by <a href="" target="_blank">Custom Theme</a>.
+               <a href="http://www.mycodes.net" class="go-top">
+               <i class="fa fa-angle-up"></i>
+               </a>
+            </div>
+         </footer>
+      </section>
+      <script src="js/jquery.js" ></script><!-- BASIC JQUERY LIB. JS -->
+      <script src="js/bootstrap.min.js" ></script><!-- BOOTSTRAP JS -->
+      <script src="js/jquery.dcjqaccordion.2.7.js"></script><!-- ACCORDIN JS -->
+      <script src="js/jquery.scrollTo.min.js" ></script><!-- SCROLLTO JS -->
+      <script src="js/jquery.nicescroll.js" ></script><!-- NICESACROLL JS -->
+      <script src="js/respond.min.js" ></script><!-- RESPOND JS -->
+      <script src="assets/jquery-file-upload/js/vendor/jquery.ui.widget.js" ></script><!-- FILE UPLOAD UI WIDGET JS -->
+      <script src="assets/jquery-file-upload/js/vendor/tmpl.min.js" ></script><!-- FILE UPLOAD TMPL JS -->
+      <script src="assets/jquery-file-upload/js/vendor/load-image.min.js" ></script><!-- FILE UPLOAD IMAGE LOAD JS -->
+      <script src="assets/jquery-file-upload/js/vendor/canvas-to-blob.min.js" ></script><!-- FILE UPLOAD CANVAS TO BLOB JS -->
+      <script src="assets/jquery-file-upload/js/jquery.iframe-transport.js" ></script><!-- FILE UPLOAD IFRAME JS -->
+      <script src="assets/jquery-file-upload/js/jquery.fileupload.js" ></script><!-- FILE UPLOAD JS -->
+      <script src="assets/jquery-file-upload/js/jquery.fileupload-fp.js" ></script><!-- FILE UPLOAD  FP JS -->
+      <script src="assets/jquery-file-upload/js/jquery.fileupload-ui.js" ></script><!-- FILE UPLOAD UI JS -->
+      <script src="js/common-scripts.js" ></script><!-- BASIC COMMON  JS -->
+   </body>
+</html>
+
